@@ -1,0 +1,30 @@
+﻿  Source.cpp
+c:\users\matth\documents\visual studio 2015\projects\hw5\hw5\account.h(86): warning C4018: '<': signed/unsigned mismatch
+c:\users\matth\documents\visual studio 2015\projects\hw5\hw5\shufflevector.h(14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  c:\users\matth\documents\visual studio 2015\projects\hw5\hw5\source.cpp(38): note: see reference to function template instantiation 'void shuffleVector<int>(std::vector<int,std::allocator<_Ty>> &)' being compiled
+          with
+          [
+              _Ty=int
+          ]
+c:\users\matth\documents\visual studio 2015\projects\hw5\hw5\shufflevector.h(15): error C2819: type 'std::vector<int,std::allocator<_Ty>>' does not have an overloaded member 'operator ->'
+          with
+          [
+              _Ty=int
+          ]
+  c:\users\matth\documents\visual studio 2015\projects\hw5\hw5\shufflevector.h(15): note: did you intend to use '.' instead?
+c:\users\matth\documents\visual studio 2015\projects\hw5\hw5\shufflevector.h(15): error C2232: '->std::vector<int,std::allocator<_Ty>>::size': left operand has 'class' type, use '.'
+          with
+          [
+              _Ty=int
+          ]
+c:\users\matth\documents\visual studio 2015\projects\hw5\hw5\shufflevector.h(19): error C2819: type 'std::vector<int,std::allocator<_Ty>>' does not have an overloaded member 'operator ->'
+          with
+          [
+              _Ty=int
+          ]
+  c:\users\matth\documents\visual studio 2015\projects\hw5\hw5\shufflevector.h(19): note: did you intend to use '.' instead?
+c:\users\matth\documents\visual studio 2015\projects\hw5\hw5\shufflevector.h(19): error C2232: '->std::vector<int,std::allocator<_Ty>>::at': left operand has 'class' type, use '.'
+          with
+          [
+              _Ty=int
+          ]
